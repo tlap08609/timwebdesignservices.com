@@ -1,0 +1,456 @@
+@CHARSET "UTF-8";
+	*{
+	text-decoration: none;
+	list-style-type: none;
+	}
+	.mail{
+	display:block;
+	}
+	.blank{
+/* 	border:1px solid red; */
+	width: 100%;
+	height: 30px;
+	}
+	
+	h4{
+	font-family: 'Bree Serif', serif;	
+	}
+	h3{
+	font-weight: bold; 
+/* 	font-family: 'Bree Serif', serif; */
+	}
+	.ccc h2{
+	font-size:24px;
+	font-weight: bold; 
+	font-family: 'Raleway', sans-serif;
+	}
+	.breadcrumb h1{
+	border:1px solid red;
+	}
+	#standard{
+/* 	font-family: 'Droid Sans', sans-serif; */
+	}
+	#standard span , #optional span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	#standard1 span , #optional1 span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	#standard2 span , #optional2 span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	#standard3 span , #optional3 span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	#standard4 span , #optional4 span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	#standard5 span , #optional5 span{
+	margin:0.4em 0em 0em 0.2em;
+	}
+	.menuNav a{
+	font-family: 'Bree Serif', serif;
+	color:white;
+	font-size: 1.5em;
+	}
+	.menuNav a:hover{
+	font-size: 2em;
+	text-decoration: none;
+	transition: font 0.3s ease.
+	}
+	/* 搜尋button */
+	.stylish-input-group .input-group-addon{
+    background: white !important; 
+	}
+	.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+	}
+	.stylish-input-group button{
+    border:0;
+    background:transparent;
+	}
+	/* swipe */
+	.swiper-container{
+	width: 100%;
+	height: 100%;
+	
+	}
+	.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    }
+	.new h2{
+/* 	text-shadow: 2px 2px black; */
+/* 	color:white; */
+	font-family: 'Raleway', sans-serif;
+/* 	font-family: 'Coustard', serif; */
+ 	font-weight: bold; 
+	font-size: 2em;
+	}
+	.new p{
+	font-size:1em;
+	font-family: 'Raleway', sans-serif;
+	margin-top:5px;
+	}
+	.new .row{
+	margin:2em 0em;
+	}
+
+	.compro p{
+	font-family: 'Raleway', sans-serif;
+	font-size:1em;
+	text-align: justify;
+	text-justify: inter-word;
+	line-height:150%;
+	}
+	.compro img{
+	transition: 0.3s ease;
+    cursor: pointer;
+
+	}
+	.compro img:hover{
+ 	transform: scale(1.3);
+/*  	zoom: 1.2; */
+/* 	transform: rotate(360deg); */
+	
+	}
+	.compro h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:1.3em;
+	}
+	.compro .row{
+	margin-bottom:2em;
+	}
+	.sp h2{
+	font-family: 'Bree Serif', serif;
+	}
+	.toggle-btn{
+	display:none;
+	}
+
+	.pdfobject-container {
+	height: 700px;
+	width: 100%;
+	}
+	.pdfobject { 
+	border: 1px solid #666; 
+	}
+	.brochure{
+	margin-bottom:5%;
+	}
+
+	.brochure h2, .brochure a{
+	font-family: 'Raleway', sans-serif;
+	}
+	.brochurePho h2,.brochure a{
+	font-family: 'Raleway', sans-serif;
+	}
+	.brochure .pre-scrollable{
+	max-height:700px;
+	}
+	.brochure a{
+	display:block;
+	}
+	.brochure p{
+	font-size:1em;
+	}
+	/* dav */
+	@media screen and (min-width:1440px) {
+
+		.proPho{
+		display:none;
+		
+		}
+ 		.logo{
+		width: 180px;
+		height: 66px;
+		display:block;
+		}
+		.brochurePho{
+		display:none;
+		} 
+		#dnav img{
+		width: 100px;
+		height: 100px;
+		margin-left:38%;
+		display:block;
+		}
+    	.menuNav{
+	 	background:#494e6b;
+	 	height: 78px;
+		line-height:72px;
+		position:relative;
+		}
+		.burger{
+		display: none;
+		}
+	}
+	@media screen and (max-width:1440px) {
+		.proPho{
+		display:none;
+		}
+ 		.logo{
+		width: 180px;
+		height: 66px;
+		display:block;
+		} 
+		.brochurePho{
+		display:none;
+		} 
+		#dnav img{
+		width: 100px;
+		height: 100px;
+		margin-left:33%;
+		display:block;
+		}
+		.menuNav{
+	 	background:#494e6b;
+	 	height: 62px;
+		line-height:55px;
+		postion:relative;
+		}
+		.burger{
+		display: none;
+		}
+
+	}
+
+	#dnav a{
+	color:black;
+	font-size:1.2em;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+	}
+	#dnav li{
+	display:inline-block;
+	height: 150px;
+	}
+
+	#tabText{
+	position:fixed;
+	width: 40px;
+	height: 120px;
+	font-family: 'Bree Serif', serif;
+ 	background:#494e6b; 
+/* 	background:#c9302c; */
+/* 	border:1px solid red; */
+	border-radius: 7px 0px 0px 7px;
+/* 	top:30%; */
+	top:250px;
+	right:0%;
+	font-size:1.4em;
+	color:white;
+	line-height:50px;
+	writing-mode: vertical-lr;
+	-webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    -o-writing-mode: vertical-lr;
+	vertical-align: text-top;
+	cursor: pointer;
+	z-index:9;
+	}
+	.con{
+	position:fixed;
+	width: 134px;
+	height: 320px;
+	right:-1000px;
+	top:250px;
+	background:#f2f2f2;
+	line-height:30px;
+	z-index:9;
+	}
+	.con p{
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	}
+	.con a{
+	margin-right:15px;
+	}
+	.modal h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size:2em;
+	}
+	.modal label{
+	font-size:1em;
+	font-family: 'Raleway', sans-serif;
+	}
+/* 	.ui-tabs-vertical { width: 55em; } */
+    .ui-tabs-vertical .ui-tabs-nav { 
+    padding: .2em .1em .2em 1em;
+    float: left; 
+	width: 15%;
+    }
+    .ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+/*     width: 100%; */
+/*     border-bottom-width: 1px !important;  */
+/*     border-right-width: 0 !important;  */
+/*     margin: 0 -1px .2em 0;  */
+    }
+    .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+    .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    padding-bottom: 0; 
+/*     padding-right: .1em;  */
+/*     border-right-width: 1px;  */
+    }
+    .ui-tabs-vertical .ui-tabs-panel {
+/*      padding: 1em;  */
+    float: right;
+	width: 100%;
+    /*     width: 55em;   */
+    }
+    .ccc{
+/*  border:1px solid black;   */
+    
+    }
+    .picg{
+    margin:3em 0em;
+    
+    }
+    .picg .row div{
+    margin-bottom:3em;
+    
+    }
+    .lnav{
+/*   	border:1px solid blue; */
+    
+    }
+    .lnav h4{
+    font-size:1.5em;
+    }
+    .show{
+    width: 50%;
+/*     border:1px solid gray; */
+    }
+    .show img{
+    }
+    .nav-tabs{
+    clear:both;
+    
+    }
+    .tab-content{
+/*     border:1px solid black; */
+/*     width: 120%; */
+    }
+	/* VideoRWD */
+	.video-max-size {
+	max-width: 600px; 
+	max-height:600px; 
+	}
+	/* form */
+	.modal .modal-dialog {
+	width: 80%;
+	}
+/* 	fix the window problem */
+	body.modal-open {
+	    overflow: auto;
+	}
+	body.modal-open[style] {
+	    padding-right: 0px !important;
+	}
+	.modal::-webkit-scrollbar {
+	    width: 0 !important; /*removes the scrollbar but still scrollable*/
+	    /* reference: http://stackoverflow.com/a/26500272/2259400 */
+	}
+	button p{
+	padding-top:3px;
+	font-family: 'Bree Serif', serif;
+/* 	font-family: 'Coustard', serif; */
+	}
+	.jqvmap-zoomin, .jqvmap-zoomout
+	{
+	position: absolute;
+	left: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #000000;
+	padding: 3px;
+	color: white;
+	width: 13px;
+	height: 16px;
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+	}
+
+	.hhhtab,.hhtab,.hptab,.fahtab,.vtab,.stab,.svtab,.eitab,.nitab{
+	display:none;
+	}
+	tr {
+	display: block;
+	}
+	th,td {
+ 	min-width: 250px;
+	}
+	.hh,.h,.p,.fa,.v,.s,.sv,.ei,.ni{
+	width: 10px;
+	height: 10px;
+	margin-top:0.19em;
+/* 	border:1px solid red; */
+	
+	}
+	.lnav button{
+	margin-top:1em;
+	
+	}
+	a:hover, a:active, a:focus {
+	outline: 0;
+	}
+ 	.showMachine{ 
+ 	display:block; 
+/*  width: 300px; */
+/*  border:1px solid red;  */
+/* 	margin-left:30%; */
+ 	}
+
+ 	/* product */
+ 	.swiper-containerPro {
+    overflow: hidden;
+    }
+    
+    .swiper-containerPro .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+    }
+    
+    .testSpan{
+    width: 100%;
+    height: 80px;
+    padding-top:1.2%;    
+    }
+
+
+	.toggle-btn{
+	display: none;
+	}
+
+	.seo{
+	 text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
+	}
+	.event ,  .fintek-in-timtos-2017{
+	margin:0 0 20% 0;
+	}
+

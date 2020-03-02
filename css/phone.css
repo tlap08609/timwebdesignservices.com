@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+.proPho .row img{
+	margin-top:7%;
+}
+.proPho .row button{
+	font-size:1.2em;
+	margin:7% 0%;
+	height: 80px;
+}
+
+@media (max-width: 767px) and (orientation:landscape){
+	#vmap{
+	display:none;
+	}
+	.proOri{
+	display:none;
+	}
+	.proPho{
+	display:block;
+	font-family: 'Raleway', sans-serif;
+	}
+	.proPho h2{
+	font-size:1.3em;
+	font-weight:bold;
+	}
+	.leftvh{
+	margin-top:5%;	
+	margin-left:6%;
+	}
+	.compro h2{
+	font-size:1.3em;
+	font-weight:bold;
+	margin-bottom:6%;
+	}
+	.compro hr{
+	display:none;
+	}
+	.blank hr{
+	display:block;
+	margin-bottom:5%;
+	}
+	.brochurePho{
+	display:block;
+	}
+	.brochurePho h2{
+	font-size:1.3em;
+	margin-left:6%;
+	font-weight:bold;
+	}
+	.brochure{
+	display:none;
+	}  
+	.new h2{
+	font-family: 'Raleway', sans-serif;
+ 	font-weight: bold; 
+	font-size: 1em;
+	}	
+	.new p{
+	font-size:0.8em;
+	font-family: 'Raleway', sans-serif;
+	margin-top:1%;
+	}	
+	.modal .modal-dialog {
+	width: 80%;
+	margin:0 auto;
+	}
+	.modal h2,p{
+	
+	}
+	.top{
+	margin-left:3%;
+	margin-top:3%;
+	width:100%;
+	}
+ 	.blank{ 
+  	height: 10px; 
+ 	} 
+	.logo img{
+	width: 130px;
+	height: 47px;
+	}
+	.search{
+	display:none;
+	}
+	.toggle-btn{
+	display:block;
+	margin-top:13%;
+	}
+	#dnav{
+	display:none;
+	}
+	#tabText{
+	display:none;
+	}
+	.menuNav{
+	display:none;
+	}
+
+}
+	@media (max-width: 767px) and (orientation:portrait){
+
+	#vmap{
+	display:none;
+	}
+	#sccccc {
+/* 	border:1px solid red; */
+/* 	height:800px; */
+	}
+	.proOri{
+	display:none;
+	
+	}
+	.proPho{
+	display:block;
+	
+	}
+	.compro h2{
+	font-size:1.3em;
+	font-weight:bold;
+	margin-bottom:6%;
+	}
+	.compro hr{
+	display:none;
+	}
+	.blank hr{
+	display:block;
+	}
+	.top{
+		margin-left:3%;
+		margin-top:3%;
+		width:100%;
+	}
+	.logo img{
+	width: 130px;
+	height: 47px;
+	}
+	.brochurePho{
+	display:block;
+	}
+	.brochurePho h2{
+	font-size:1.3em;
+	margin-left:8%;
+	font-weight:bold;
+	}
+	.brochure{
+	display:none;
+	}  
+	.new h2{
+	font-family: 'Raleway', sans-serif;
+ 	font-weight: bold; 
+	font-size: 1em;
+	}
+	.new p{
+	font-size:0.8em;
+	font-family: 'Raleway', sans-serif;
+	margin-top:2%;
+	}
+	.modal h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size:1.2em;
+	}
+	.modal label{
+	font-size:1em;
+	font-family: 'Raleway', sans-serif;
+	}
+	
+
+	.modal .modal-dialog {
+	width: 80%;
+	margin:0 auto;
+	}
+	.modal h2,p{
+	}
+	.top{
+	margin-left:3%;
+	margin-top:3%;
+	}
+ 	.blank{ 
+  	height: 10px; 
+ 	} 
+	.logo{
+	width: 100px;
+	height: 36px;
+	display:block;
+	}
+	.search{
+	display:none;
+	}
+
+}
+
+<!-- small than-->
+@media (min-width: 767px) {
+
+	#main-menu{
+	display:none;
+	}
+	.blank hr{
+	display:none;
+	}
+
+}

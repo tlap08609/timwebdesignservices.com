@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+	.footInform{
+	height: 25%;
+	padding:2% 0% 2% 0%;
+	background:#272727;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	
+	}
+	.cm_pr {
+	text-align: justify;
+	}
+	
+	.foot_proline a{
+	color:#4A90E2;
+	font-weight: bold;
+	}
+	.foot_proline span{
+	font-size:0.8em;
+	color:white;
+	font-style: italic;
+	}
+	.footInform .fa-twitter,.footInform .fa-instagram,.footInform .fa-youtube,.footInform .fa-facebook-official{
+	color:#4A90E2;
+	}
+	.readmore{
+	background-color:#4A90E2;
+	}
+	.footInform hr{
+	color:#4A90E2;
+	}
+	.footInform i{
+	margin-right:7%;
+	}
+	footer .callme{
+	height:2%;
+	background:#6D6D6D;
+	font-family: 'Bree Serif', serif;
+	
+	color:white;
+	}
+	.callme p{
+	margin:2%; 
+	font-size: 1.1em;
+	}
+	
+	footer a{
+	font-size: 1em;
+	color:white;
+	}
+	/*  494e6b  #0B93F7*/
+	footer .copyright{
+	line-height:61px;
+	height:60px;
+	background:#494e6b;
+	font-family: 'Bree Serif', serif;
+	font-size: 1.2em;
+	color:white;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                       supported by Chrome and Opera */
+	}
+	.fTitle{
+	font-family: 'Bree Serif', serif;
+	font-size: 1.4em;
+	margin-top:3%;
+	}
